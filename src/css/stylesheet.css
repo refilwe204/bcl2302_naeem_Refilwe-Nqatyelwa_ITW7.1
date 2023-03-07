@@ -57,6 +57,7 @@ p {
     margin-left: -15px;
     margin-top: -8.5px;
     margin-bottom: 0px;
+    padding-bottom: 360px;
   }
   
   .middle {
@@ -139,6 +140,13 @@ p {
   }
 
   .wrapper .form .input_field .btn{
+   background-color:white;
+   font-size: 12px;
+   font: weight 500px;
+   color:black;
+   padding: 10px 20px;
+   border-radius: 5000px;
+   transition: all 0.3s;
    cursor: pointer;
    outline: none;
   }
@@ -148,5 +156,7 @@ p {
   }
 
   .wrapper .form .input_field .btn:hover{
-    background:rgb(225, 225, 207);
+    transform: scale(1.15);
   }
+
+
