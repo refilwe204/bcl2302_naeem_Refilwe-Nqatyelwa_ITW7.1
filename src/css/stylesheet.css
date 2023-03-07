@@ -1,0 +1,152 @@
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:black;
+  }
+  
+  h1,
+  h2, {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+  }
+  
+  h4{
+    color: white;
+    background-color: rgb(207, 30, 110);
+  }
+  
+  h3,h2{
+    background-color: rgb(63, 165, 199); 
+  }
+  img,
+  h2 {
+    border: 20px solid rgb(225, 225, 207);
+    border-radius: 55%;
+    text-align: center;
+    align-items:center;
+  }
+  
+  img{
+    position: sticky;
+    top: 0px;
+  }
+  
+  
+  body {
+    display: flex;
+    background-color: white;
+  }
+  
+  .container {
+    width: min-content;
+    margin: 5px;
+    display: flex;
+    max-width: 300px;
+    min-height: 780px;
+    margin-top: 1px;
+    margin-bottom: -90px;
+    align-items: left;
+  }
+  
+  .left {
+    position: relative;
+    justify-content: centre;
+    background-color: rgb(63, 165, 199);
+    padding: 10px;
+    flex: 2;
+    text-align: center;
+    margin-left: -15px;
+    margin-top: -8.5px;
+    margin-bottom: 0px;
+  }
+  
+  .middle {
+    background-color: white;
+    position: relative;
+    justify-content: center;
+    padding: 10px;
+    flex: 2;
+    text-align:center;
+    margin-left: -1px;
+    margin-top: -8.5px;
+    margin-bottom: 0px
+  }
+  
+  .right{
+    background-color: white;
+    padding: left 6px;
+    flex: 3;
+    margin-left: 10px;
+    margin-right: 8px;
+    position: relative;
+    margin-top:-8.5 ;
+  }
+  
+  .heading {
+    color: rgb(237, 224, 228);
+  }
+  
+  li {
+    list-style: none;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  li{
+    color: rgb(85, 226, 38);
+  }
+
+  .wrapper{
+    max-width: 400px;
+    width: 100%;
+    background: lightblue;
+    margin: 20px;
+    padding-left: 30px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0,125);
+  }
+
+  .wrapper .title{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 25px ;
+    color:black;
+    text-align: left;
+  }
+
+  .wrapper .form{
+    width:100%;  
+  }
+
+  .wrapper .form .input_field{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: centre;  
+  }
+  
+  .wrapper .form .input_field label{
+    width: 200px;
+    color:black;
+    margin-right: 10px;
+    font-size: 14px;    
+  }
+
+  .wrapper .form .input_field{
+    width: 100%;
+    color:darkgray;
+    outline: none;
+    font-size: 15px;
+    padding: 8px ;
+    transition: all 0.3s ease;
+  }
+
+  .wrapper .form .input_field .btn{
+   cursor: pointer;
+   outline: none;
+  }
+
+  .wrapper .form .input_field .last-child{
+    margin-bottom: 0;
+  }
+
+  .wrapper .form .input_field .btn:hover{
+    background:rgb(225, 225, 207);
+  }
